@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
 html,
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Labrada', sans-serif;
 	font-size: 14px;
 	height: 100%;
 	width: 100%;
@@ -102,7 +105,7 @@ a:focus {
 /*-------header-----*/
 
 header {
-	background: rgba(12, 11, 11, 0) url("../img/header.jpg") no-repeat scroll 0 80px / cover;
+	background: rgba(12, 11, 11, 0) url("/static/img/head.jpeg") no-repeat scroll 0 80px / cover;
 	color: rgb(255, 255, 255);
 	height: 1000px;
 	overflow: hidden;
@@ -1034,7 +1037,7 @@ nav {
 /*-------px-bg-----*/
 
 .px-bg {
-	background: rgba(0, 0, 0, 0) url("../img/px-bg.jpg") repeat scroll center 0 / cover;
+	background-image: rgba(0, 0, 0, 0) url("../static/img/head.jpeg") repeat scroll center 0 / cover;
 	color: #fff;
 	padding-bottom: 150px;
 	padding-top: 180px;
